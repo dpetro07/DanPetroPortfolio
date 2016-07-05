@@ -1,0 +1,54 @@
+/***************************************************************
+Parallex Section
+****************************************************************/
+.parallax-bg3 {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 3;
+}
+.bg3-1 {
+    margin: 0 auto;
+    max-width: 1920px;
+    position: relative;
+    width: 100%;
+}
+
+.parallaxHeader {
+    color: #CC0000;
+    text-shadow: 3px 3px 0px #000;
+    font-family: 'Russo One', sans-serif;
+}
+
+.heightPar {
+      height: 700px;
+}
+
+#projectsContainer {
+  height: 400px;
+}
+
+.parallex-height {
+  height: 200px;
+}
+.parallax-title {
+  color: #FFFFFF;
+
+}
+/***************************************************************
+EDUCATION CSS 
+****************************************************************/
+.marginEdu {
+  margin-left: 8%;
+}
+
+.education {
+  text-align: center;
+}
+
+
+.fa-2x:hover {
+  color: #A0917C;
+}
+
+

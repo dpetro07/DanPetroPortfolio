@@ -1,0 +1,372 @@
+/***************************************************************
+DP7 IMAGE ROTATE 
+****************************************************************/
+.mainLogo{
+    border-radius:50%;    
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+    -ms-transition: -ms-transform .8s ease-in-out;
+    transition: transform .8s ease-in-out;
+    
+    
+}
+.mainLogo:hover{
+    transform:rotate(180deg);
+    -ms-transform:rotate(180deg);
+    -webkit-transform:rotate(180deg);
+    cursor: pointer; 
+    cursor: hand;
+}
+
+
+/***************************************************************
+NAVBAR CONTACT INFO
+****************************************************************/
+.myFace1 {
+	border-radius: 50%;
+	max-height: 20%;
+	max-width: 20%;
+}
+.contactText {
+
+}
+
+.fa-times {
+	color: black;
+}
+.fa-times:hover {
+	color: #A0917C;
+}
+
+
+
+/***************************************************************
+PROJECTS SECTION
+****************************************************************/
+.btnOrange {
+	background-color: #FD6E21;
+	padding: 10px;
+}
+.btnOrange:hover {
+  background-color: #FD6E21;
+  padding: 5px;
+}
+
+
+.btnLightBlue {
+	background-color: #6CBAFC;
+	padding: 10px;
+}
+.btnLightBlue:hover {
+  background-color: #6CBAFC;
+  padding: 5px;
+}
+
+.btnBlue {
+  background-color: #337AB7;
+  padding: 10px;
+}
+.btnBlue:hover {
+  background-color: #337AB7;
+  padding: 5px;
+}
+
+.btnGreen {
+  background-color: #5cb85c;
+  padding: 10px;
+}
+.btnGreen:hover {
+  background-color: #5cb85c;
+  padding: 5px;
+}
+
+.btnRed {
+  background-color: #cc0000;
+  padding: 10px;
+}
+.btnRed:hover {
+  background-color: #cc0000;
+  padding: 5px;
+}
+
+.btnYellow {
+  background-color: #ffff00;
+  padding: 10px;
+}
+.btnYellow:hover {
+  background-color: #ffff00;
+  padding: 5px;
+}
+
+.btnBlack {
+  background-color: #000000;
+  padding: 10px;
+}
+.btnBlack:hover {
+  background-color: #000000;
+  padding: 5px;
+}
+
+.btnLtBrown {
+  background-color: #A0917C;
+}
+.btnLtBrown:hover {
+  background-color: #000000;
+}
+
+.slider .indicators .indicator-item {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    height: 16px;
+    width: 16px;
+    margin: 0 12px;
+    background-color: #A0917C;
+    transition: background-color .3s;
+    border-radius: 50%;
+}
+
+.slider .indicators .indicator-item.active {
+    background-color: #000000;
+}
+
+.rightProjectInfo {
+  margin-top: 15%;
+}
+.rightProjectBtn {
+  margin-top: 10%;
+}
+/***************************************************************
+FOOTER
+****************************************************************/
+
+footer.page-footer {
+	background-color: #A0917C;
+}
+
+footer.page-footer .footer-copyright {
+	background-color: #000000;
+}
+
+.socialbtn {
+  color: #000000;
+}
+.socialbtn:hover {
+  color: #FFFFFF;
+}
+/***************************************************************
+ABOUT ME SECTION
+****************************************************************/
+.myFace {
+	border-radius: 50%;
+	max-height: 100%;
+	max-width: 100%;
+	z-index: 2;
+}
+
+p {
+	text-align: justify;
+}
+
+.aboutMeBtn {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #333333;
+}
+
+.aboutMeBtn:hover {
+	background-color: #A0917C;
+}
+
+.aboutMeTitle {
+	background-color: #A0917C;
+	border-style: solid;
+	border-color: #333333;
+	box-shadow: 3px 3px 2px #888888;
+  text-shadow: 2px 2px 0px #FFFFFF;
+  margin-top: 1%;
+}
+
+.aboutMeFont {
+  color: #000000;
+  background-color: #A0917C;
+  border-style: solid;
+  border-color: #333333;
+  box-shadow: 3px 3px 2px #888888;
+}
+
+.abtMeUnderline {
+  text-decoration: underline;
+}
+
+/***************************************************************
+CHECK AND CHANGE THIS SECTION TO ITS CORRESPONDING CSS PAGE
+****************************************************************/
+.webDevTitle {
+	text-align: center;
+	color: #FFFFFF;
+  text-shadow: 3px 3px 0px #000000;
+}
+
+.mainLogo {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 2;
+}
+
+
+.hidden{
+ display:none;   
+}
+
+
+.projectImg {
+	width: 80%;
+	height: auto;
+}
+
+
+.navbar {
+	background-color: black;
+
+}
+
+body {
+	background-color: #F2F3F8;
+}
+
+/***************************************************************
+Parallex Section
+****************************************************************/
+.parallax-bg3 {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 3;
+}
+.bg3-1 {
+    margin: 0 auto;
+    max-width: 1920px;
+    position: relative;
+    width: 100%;
+}
+
+.parallaxHeader {
+    color: #CC0000;
+    text-shadow: 3px 3px 0px #000;
+    font-family: 'Russo One', sans-serif;
+}
+
+.heightPar {
+      height: 700px;
+}
+
+#projectsContainer {
+  height: 400px;
+}
+
+.parallex-height {
+  height: 250px;
+}
+.parallax-title {
+    color: #FFFFFF;
+    text-shadow: 2px 2px 0px #000000;
+    margin-top: 1%;
+}
+
+
+/***************************************************************
+EDUCATION CSS 
+****************************************************************/
+.marginEdu {
+  margin-left: 8%;
+  margin-bottom: 0px;
+  margin-top: 5%;
+}
+
+.education {
+  text-align: center;
+}
+
+.navBtn {
+  color: #FFFFFF;
+}
+
+.navBtn:hover {
+  color: #A0917C;
+}
+
+.card-reveal {
+  height: 250px;
+}
+
+.schoolLogo {
+  margin-top: 10px;
+}
+
+/***************************************************************
+SLIDES
+****************************************************************/
+.slider .slides li img {
+    background-size:100% auto;
+    background-repeat: no-repeat;
+}
+
+/***************************************************************
+FORMS
+****************************************************************/
+  /* label color */
+   .input-field label {
+     color: #000000;
+   }
+   /* label focus color */
+   .input-field input[type=text]:focus + label {
+     color: #000000;
+   }
+   /* label underline focus color */
+   .input-field input[type=text]:focus {
+     border-bottom: 1px solid #A0917C;
+     box-shadow: 0 1px 0 0 #A0917C;
+   }
+   /* valid color */
+   .input-field input[type=text].valid {
+     border-bottom: 1px solid #000000;
+     box-shadow: 0 1px 0 0 #000000;
+   }
+   /* invalid color */
+   .input-field input[type=text].invalid {
+     border-bottom: 1px solid #000000;
+     box-shadow: 0 1px 0 0 #000000;
+   }
+   /* icon prefix focus color */
+   .input-field .prefix.active {
+     color: #000000;
+   }
+        
+  input:not([type]):focus:not([readonly]), input[type=text]:focus:not([readonly]), input[type=password]:focus:not([readonly]), input[type=email]:focus:not([readonly]), input[type=url]:focus:not([readonly]), input[type=time]:focus:not([readonly]), input[type=date]:focus:not([readonly]), input[type=datetime-local]:focus:not([readonly]), input[type=tel]:focus:not([readonly]), input[type=number]:focus:not([readonly]), input[type=search]:focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid #A0917C;
+    box-shadow: 0 1px 0 0 #A0917C;
+}
+
+input:not([type]):focus:not([readonly]), input[type=text]:focus:not([readonly]), input[type=password]:focus:not([readonly]), input[type=email]:focus:not([readonly]), input[type=url]:focus:not([readonly]), input[type=time]:focus:not([readonly]), input[type=date]:focus:not([readonly]), input[type=datetime-local]:focus:not([readonly]), input[type=tel]:focus:not([readonly]), input[type=number]:focus:not([readonly]), input[type=search]:focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid #A0917C;
+    box-shadow: 0 1px 0 0 #A0917C;
+}
+
+
+input:not([type]):focus:not([readonly])+label, input[type=text]:focus:not([readonly])+label, input[type=password]:focus:not([readonly])+label, input[type=email]:focus:not([readonly])+label, input[type=url]:focus:not([readonly])+label, input[type=time]:focus:not([readonly])+label, input[type=date]:focus:not([readonly])+label, input[type=datetime-local]:focus:not([readonly])+label, input[type=tel]:focus:not([readonly])+label, input[type=number]:focus:not([readonly])+label, input[type=search]:focus:not([readonly])+label, textarea.materialize-textarea:focus:not([readonly])+label {
+    color: #A0917C;
+}
+
+body {
+  font-family: 'Vollkorn', serif;
+}
+
+.volkorn {
+  font-family: 'Exo', sans-serif;
+}
+
+.btn {
+  font-family: 'Exo', sans-serif;
+}

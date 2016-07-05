@@ -1,0 +1,49 @@
+
+.webDevTitle {
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.mainLogo {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 2;
+}
+
+
+.hidden{
+ display:none;   
+}
+
+
+
+
+
+
+
+
+.projectImg {
+	width: 80%;
+	height: auto;
+}
+
+
+
+
+
+.navbar {
+	background-color: black;
+
+}
+
+body {
+	background-color: #F2F3F8;
+}
+
+
+
+
+element.style {
+    height: 497px;
+}

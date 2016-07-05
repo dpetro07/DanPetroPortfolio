@@ -1,0 +1,70 @@
+/***************************************************************
+DP7 IMAGE ROTATE 
+****************************************************************/
+.mainLogo{
+    border-radius:50%;    
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+    -ms-transition: -ms-transform .8s ease-in-out;
+    transition: transform .8s ease-in-out;
+    
+    
+}
+.mainLogo:hover{
+    transform:rotate(180deg);
+    -ms-transform:rotate(180deg);
+    -webkit-transform:rotate(180deg);
+    cursor: pointer; 
+    cursor: hand;
+}
+
+
+/***************************************************************
+NAVBAR CONTACT INFO
+****************************************************************/
+.myFace1 {
+	border-radius: 50%;
+	max-height: 20%;
+	max-width: 20%;
+}
+.contactText {
+
+}
+
+.fa-times {
+	color: black;
+}
+.fa-times:hover {
+	color: #A0917C;
+}
+
+
+
+/***************************************************************
+PROJECTS SECTION
+****************************************************************/
+.ojBtn {
+	background-color: #FD6E21;
+	padding: 10px;
+}
+
+.blueBtn {
+	background-color: #6CBAFC;
+	padding: 10px;
+}
+
+.slides {
+	height: 800px;
+}
+
+
+/***************************************************************
+FOOTER
+****************************************************************/
+
+footer.page-footer {
+	background-color: #A0917C;
+}
+
+footer.page-footer .footer-copyright {
+	background-color: #000000;
+}
