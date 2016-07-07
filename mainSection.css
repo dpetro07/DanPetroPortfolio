@@ -47,3 +47,8 @@ body {
 element.style {
     height: 497px;
 }
+
+.greyParallax {
+    -webkit-filter: grayscale(70%);  Chrome, Safari, Opera 
+    filter: grayscale(70%);
+}
