@@ -73,7 +73,7 @@ PROJECTS SECTION
 ****************************************************************/
 .btnOrange {
 	background-color: #FD6E21;
-	padding: 10px;
+	width: 25%;
 }
 .btnOrange:hover {
   background-color: #FD6E21;
@@ -83,7 +83,7 @@ PROJECTS SECTION
 
 .btnLightBlue {
 	background-color: #6CBAFC;
-	padding: 10px;
+	width: 25%;
 }
 .btnLightBlue:hover {
   background-color: #6CBAFC;
@@ -92,7 +92,8 @@ PROJECTS SECTION
 
 .btnBlue {
   background-color: #337AB7;
-  padding: 10px;
+  
+  width: 25%;
 }
 .btnBlue:hover {
   background-color: #337AB7;
@@ -101,7 +102,7 @@ PROJECTS SECTION
 
 .btnGreen {
   background-color: #5cb85c;
-  padding: 10px;
+  width: 25%;
 }
 .btnGreen:hover {
   background-color: #5cb85c;
@@ -110,12 +111,11 @@ PROJECTS SECTION
 
 .btnRed {
   background-color: #cc0000;
-  padding: 10px;
-  margin-top: 0px;
+  width: 25%;
 }
 .btnRed:hover {
   background-color: #cc0000;
-  padding: 5px;
+  padding: 10px;
 }
 
 .btnYellow {
@@ -129,7 +129,7 @@ PROJECTS SECTION
 
 .btnBlack {
   background-color: #000000;
-  padding: 10px;
+  width: 25%;
 }
 .btnBlack:hover {
   background-color: #000000;
@@ -164,9 +164,19 @@ PROJECTS SECTION
   margin-top: 15%;
 }
 
+.leftProjectInfo {
+  margin-top: 18%;
+  margin-bottom: 0px;
+}
+
+.bitCurrentsInfo {
+  margin-top: 10%;
+}
+
 .rightProjectBtn {
   margin-top: 10%;
   margin-right: 10px;
+
 }
 .rightProjectBtn1 {
   margin-top: 10%;
@@ -184,6 +194,11 @@ PROJECTS SECTION
 
 .technologiesUsed {
   color: #000000;
+  margin-top: 5px;
+}
+
+.projectText {
+  margin-top: 80px;
 }
 
 .devicons {
